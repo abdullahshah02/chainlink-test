@@ -7,7 +7,7 @@ const getPriceChangeInLastDay = require('./getPriceChangeInLastDay');
 		roundDataDate,
 		latestRoundDataDate,
 		priceDifference
-	} = await getPriceChangeInLastDay();
+	} = await getPriceChangeInLastDay("0x9326BFA02ADD2366b30bacB125260Af641031331");
 
 	console.log(`Description: ${description}`);
 	console.log(`Decimals: ${decimals}`);
